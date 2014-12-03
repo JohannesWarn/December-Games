@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F5479EA1A2FA44A00F0193E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5479E91A2FA44A00F0193E /* main.m */; };
+		8F5479ED1A2FA44A00F0193E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5479EC1A2FA44A00F0193E /* AppDelegate.m */; };
+		8F5479F01A2FA44A00F0193E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5479EF1A2FA44A00F0193E /* GameScene.m */; };
+		8F5479F51A2FA44A00F0193E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5479F41A2FA44A00F0193E /* GameViewController.m */; };
+		8F5479F81A2FA44A00F0193E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5479F61A2FA44A00F0193E /* Main.storyboard */; };
+		8F5479FA1A2FA44A00F0193E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5479F91A2FA44A00F0193E /* Images.xcassets */; };
+		8F5479FD1A2FA44A00F0193E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5479FB1A2FA44A00F0193E /* LaunchScreen.xib */; };
+		8F547A091A2FA44A00F0193E /* Walking_SquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F547A081A2FA44A00F0193E /* Walking_SquareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F547A031A2FA44A00F0193E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5479DC1A2FA44A00F0193E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5479E31A2FA44A00F0193E;
+			remoteInfo = "Walking Square";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F5479E41A2FA44A00F0193E /* Walking Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walking Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5479E81A2FA44A00F0193E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5479E91A2FA44A00F0193E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F5479EB1A2FA44A00F0193E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F5479EC1A2FA44A00F0193E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F5479EE1A2FA44A00F0193E /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		8F5479EF1A2FA44A00F0193E /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		8F5479F31A2FA44A00F0193E /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		8F5479F41A2FA44A00F0193E /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		8F5479F71A2FA44A00F0193E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F5479F91A2FA44A00F0193E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F5479FC1A2FA44A00F0193E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F547A021A2FA44A00F0193E /* Walking SquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walking SquareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F547A071A2FA44A00F0193E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F547A081A2FA44A00F0193E /* Walking_SquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Walking_SquareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F5479E11A2FA44A00F0193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5479FF1A2FA44A00F0193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F5479DB1A2FA44A00F0193E = {
+			isa = PBXGroup;
+			children = (
+				8F5479E61A2FA44A00F0193E /* Walking Square */,
+				8F547A051A2FA44A00F0193E /* Walking SquareTests */,
+				8F5479E51A2FA44A00F0193E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F5479E51A2FA44A00F0193E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F5479E41A2FA44A00F0193E /* Walking Square.app */,
+				8F547A021A2FA44A00F0193E /* Walking SquareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F5479E61A2FA44A00F0193E /* Walking Square */ = {
+			isa = PBXGroup;
+			children = (
+				8F5479EB1A2FA44A00F0193E /* AppDelegate.h */,
+				8F5479EC1A2FA44A00F0193E /* AppDelegate.m */,
+				8F5479F61A2FA44A00F0193E /* Main.storyboard */,
+				8F547A131A2FA46300F0193E /* View Controller */,
+				8F547A121A2FA45A00F0193E /* Game */,
+				8F5479F91A2FA44A00F0193E /* Images.xcassets */,
+				8F5479FB1A2FA44A00F0193E /* LaunchScreen.xib */,
+				8F5479E71A2FA44A00F0193E /* Supporting Files */,
+			);
+			path = "Walking Square";
+			sourceTree = "<group>";
+		};
+		8F5479E71A2FA44A00F0193E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F5479E81A2FA44A00F0193E /* Info.plist */,
+				8F5479E91A2FA44A00F0193E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F547A051A2FA44A00F0193E /* Walking SquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F547A081A2FA44A00F0193E /* Walking_SquareTests.m */,
+				8F547A061A2FA44A00F0193E /* Supporting Files */,
+			);
+			path = "Walking SquareTests";
+			sourceTree = "<group>";
+		};
+		8F547A061A2FA44A00F0193E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F547A071A2FA44A00F0193E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F547A121A2FA45A00F0193E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8F5479EE1A2FA44A00F0193E /* GameScene.h */,
+				8F5479EF1A2FA44A00F0193E /* GameScene.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		8F547A131A2FA46300F0193E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F5479F31A2FA44A00F0193E /* GameViewController.h */,
+				8F5479F41A2FA44A00F0193E /* GameViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F5479E31A2FA44A00F0193E /* Walking Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F547A0C1A2FA44A00F0193E /* Build configuration list for PBXNativeTarget "Walking Square" */;
+			buildPhases = (
+				8F5479E01A2FA44A00F0193E /* Sources */,
+				8F5479E11A2FA44A00F0193E /* Frameworks */,
+				8F5479E21A2FA44A00F0193E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Walking Square";
+			productName = "Walking Square";
+			productReference = 8F5479E41A2FA44A00F0193E /* Walking Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F547A011A2FA44A00F0193E /* Walking SquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F547A0F1A2FA44A00F0193E /* Build configuration list for PBXNativeTarget "Walking SquareTests" */;
+			buildPhases = (
+				8F5479FE1A2FA44A00F0193E /* Sources */,
+				8F5479FF1A2FA44A00F0193E /* Frameworks */,
+				8F547A001A2FA44A00F0193E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F547A041A2FA44A00F0193E /* PBXTargetDependency */,
+			);
+			name = "Walking SquareTests";
+			productName = "Walking SquareTests";
+			productReference = 8F547A021A2FA44A00F0193E /* Walking SquareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F5479DC1A2FA44A00F0193E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Johannes Wärn";
+				TargetAttributes = {
+					8F5479E31A2FA44A00F0193E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8F547A011A2FA44A00F0193E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8F5479E31A2FA44A00F0193E;
+					};
+				};
+			};
+			buildConfigurationList = 8F5479DF1A2FA44A00F0193E /* Build configuration list for PBXProject "Walking Square" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F5479DB1A2FA44A00F0193E;
+			productRefGroup = 8F5479E51A2FA44A00F0193E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5479E31A2FA44A00F0193E /* Walking Square */,
+				8F547A011A2FA44A00F0193E /* Walking SquareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F5479E21A2FA44A00F0193E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5479FD1A2FA44A00F0193E /* LaunchScreen.xib in Resources */,
+				8F5479FA1A2FA44A00F0193E /* Images.xcassets in Resources */,
+				8F5479F81A2FA44A00F0193E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F547A001A2FA44A00F0193E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F5479E01A2FA44A00F0193E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5479F51A2FA44A00F0193E /* GameViewController.m in Sources */,
+				8F5479ED1A2FA44A00F0193E /* AppDelegate.m in Sources */,
+				8F5479F01A2FA44A00F0193E /* GameScene.m in Sources */,
+				8F5479EA1A2FA44A00F0193E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5479FE1A2FA44A00F0193E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F547A091A2FA44A00F0193E /* Walking_SquareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F547A041A2FA44A00F0193E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F5479E31A2FA44A00F0193E /* Walking Square */;
+			targetProxy = 8F547A031A2FA44A00F0193E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F5479F61A2FA44A00F0193E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5479F71A2FA44A00F0193E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F5479FB1A2FA44A00F0193E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5479FC1A2FA44A00F0193E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F547A0A1A2FA44A00F0193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F547A0B1A2FA44A00F0193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F547A0D1A2FA44A00F0193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Walking Square/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F547A0E1A2FA44A00F0193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Walking Square/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F547A101A2FA44A00F0193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Walking SquareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walking Square.app/Walking Square";
+			};
+			name = Debug;
+		};
+		8F547A111A2FA44A00F0193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Walking SquareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walking Square.app/Walking Square";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F5479DF1A2FA44A00F0193E /* Build configuration list for PBXProject "Walking Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F547A0A1A2FA44A00F0193E /* Debug */,
+				8F547A0B1A2FA44A00F0193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F547A0C1A2FA44A00F0193E /* Build configuration list for PBXNativeTarget "Walking Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F547A0D1A2FA44A00F0193E /* Debug */,
+				8F547A0E1A2FA44A00F0193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F547A0F1A2FA44A00F0193E /* Build configuration list for PBXNativeTarget "Walking SquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F547A101A2FA44A00F0193E /* Debug */,
+				8F547A111A2FA44A00F0193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F5479DC1A2FA44A00F0193E /* Project object */;
+}
