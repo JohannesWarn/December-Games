@@ -56,8 +56,9 @@
     [attack setRequiredEnergy:10];
     [attack setAttackBlock:^(Attack *attack, Actor *enemy, Actor *player) {
         enemy.energy -= attack.requiredEnergy;
-        player.health -= 5 + enemy.level;
-        return @"Bit player giving 5 damage.";
+        NSInteger damage = 5 + enemy.level;
+        player.health -= damage;
+        return [NSString stringWithFormat:@"Bit player giving %@ damage.", @(damage)];
     }];
     [attacks addObject:attack];
     

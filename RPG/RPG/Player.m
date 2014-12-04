@@ -64,8 +64,9 @@
     attack = [Attack attackWithName:@"Punch"];
     [attack setRequiredEnergy:0];
     [attack setAttackBlock:^(Attack *attack, Actor *player, Actor *enemy) {
-        enemy.health -= 5 + self.level;
-        return @"Punched enemy giving 5 damage.";
+        NSInteger damage = 5 + player.level;
+        enemy.health -= damage;
+        return [NSString stringWithFormat:@"Punched enemy giving %@ damage.", @(damage)];
     }];
     [attacks addObject:attack];
     
@@ -73,7 +74,7 @@
     [attack setRequiredEnergy:10];
     [attack setAttackBlock:^(Attack *attack, Actor *player, Actor *enemy) {
         player.energy -= attack.requiredEnergy;
-        NSInteger damage = 8 + self.level * (arc4random() % 4);
+        NSInteger damage = 8 + player.level * (arc4random() % 4);
         enemy.health -= damage;
         return [NSString stringWithFormat:@"Kicked enemy giving %@ damage. Losing 10 energy.", @(damage)];
     }];

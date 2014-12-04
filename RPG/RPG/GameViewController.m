@@ -132,6 +132,11 @@
     if (arc4random() % 3 < 1) {
         [self.player.history insertObject:@"Unable to escape." atIndex:0];
         [self.enemy performAttack:[self.enemy attackAgainstActor:self.player] againstActor:self.player];
+        if (self.player.health <= 0) {
+            self.player = [[Player alloc] init];
+            [self.player.history addObject:@"Died. Respawned. Sadface."];
+            self.enemy = [self randomEnemy];
+        }
     } else {
         [self.player.history insertObject:@"Escaped from enemy." atIndex:0];
         self.enemy = [self randomEnemy];
