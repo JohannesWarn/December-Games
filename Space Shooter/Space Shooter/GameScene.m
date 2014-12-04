@@ -154,7 +154,7 @@
                 CGVector distance = CGVectorMake(enemy.position.x - node.position.x,
                                                  enemy.position.y - node.position.y);
                 CGFloat magnitude = sqrt(distance.dx * distance.dx + distance.dy * distance.dy);
-                if (magnitude < enemy.radius) {
+                if (magnitude < enemy.radius && NO) {
                     [enemy runAction:remove withKey:@"remove"];
                     [node runAction:remove withKey:@"remove"];
                 }
