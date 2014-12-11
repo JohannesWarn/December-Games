@@ -33,20 +33,33 @@
     
     self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
     
-    for (int i = 0; i < 4; i ++) {
-        CGSize size = CGSizeMake(100 * i + arc4random() % 20,
-                                 30 + arc4random() % 20);
+    for (int i = 0; i < 40; i ++) {
+        CGFloat width = self.size.width * 0.8 * (0.1 + cos(i * 0.2));
+        CGSize size;
+        if (width < 0 ) {
+            size = CGSizeMake(ABS(self.size.width * 0.6 * (0.1 + sin(i * 0.2))),
+                              30);
+        } else {
+            size = CGSizeMake(ABS(width),
+                              30);
+        }
         
         SKShapeNode *box = [Player shapeNodeWithRectOfSize:size];
         box.fillColor = [SKColor colorWithHue:0.6 saturation:0.8 brightness:0.8 alpha:1.0];
         
         box.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:size];
         box.physicsBody.allowsRotation = NO;
-        box.physicsBody.linearDamping = 6.0;
+        box.physicsBody.dynamic = NO;
         
         [self.baseNode addChild:box];
         
-        box.position = CGPointMake(100, 100);
+        if (width < 0) {
+            box.position = CGPointMake(self.size.width - size.width / 2.0,
+                                       (i + 1.0/2.0) * size.height);
+        } else {
+            box.position = CGPointMake(size.width / 2.0,
+                                       (i + 1.0/2.0) * size.height);
+        }
     }
     
     self.physicsWorld.gravity = CGVectorMake(0, -20);
@@ -57,8 +70,8 @@
     CGSize size = CGSizeMake(floor(self.size.width * 0.1),
                              floor(self.size.width * 0.1));
     self.player = [Player playerWithSize:size];
-    self.player.position = CGPointMake(CGRectGetMidX(self.frame),
-                                       CGRectGetMidY(self.frame));
+    self.player.position = CGPointMake(CGRectGetMidX(self.frame) + 100,
+                                       CGRectGetMidY(self.frame) - 100);
     
     [self.baseNode addChild:self.player];
 }
