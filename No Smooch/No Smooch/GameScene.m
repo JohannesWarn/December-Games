@@ -125,8 +125,7 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if (_lastBody != nil) {
-        [_lastBody removeAllChildren];
-        [_lastBody setFillColor:[UIColor colorWithHue:0.63 saturation:0.7 brightness:0.7 alpha:0.05]];
+        [_lastBody removeFromParent];
         _lastBody = nil;
         _score ++;
         [_scoreLabel setText:[NSString stringWithFormat:@"%@", @(_score)]];
