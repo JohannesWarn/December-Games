@@ -1,9 +1,8 @@
-
 //
 //  main.m
-//  Tower Tap
+//  No Smooch
 //
-//  Created by Johannes Wärn on 12/12/14.
+//  Created by Johannes Wärn on 15/12/14.
 //  Copyright (c) 2014 Johannes Wärn. All rights reserved.
 //
 
